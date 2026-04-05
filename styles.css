@@ -14,12 +14,6 @@ pre {
   font-family: "Courier New", monospace;
 }
 
-.sumario-fixo {
-    position: sticky;
-    top: 10px;
-    z-index: 1000;
-}
-
 .titulo {
     margin-left: 3.5rem;
     margin-bottom: 0;
