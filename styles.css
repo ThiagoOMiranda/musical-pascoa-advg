@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 1.5rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+}
+
+.sumario-fixo {
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
+}
+
+.titulo {
+    margin-left: 3.5rem;
+    margin-bottom: 0;
+}
+
+.session {
+    font-style: italic;
+    color: black !important;
+}
+
+.cifra b:not(.session) {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+}
